@@ -20,12 +20,18 @@ body {
 .top {
     background-color: #E0EBE8;
 }
-.crimson-pro{
+.crimson-pro-h1{
     font-family: "Crimson Pro", serif;
-    font-size: 6em;
+    font-size: 8vw;
     font-weight: 700;
     font-style: normal;
   }
+.crimson-pro-para{
+    font-family: "Crimson Pro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+}
 footer{
     background-color: #c5ded7;
     padding: 3em 0;
@@ -80,9 +86,7 @@ footer p {
         padding-top: 20px;
     }
 }
-.crimson-pro {
-    text-align: center;
-}
+
 img {
     width: 100%;
     max-width: 150px;
