@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.navlinks .navlink {
+    color: #45b29a;
+    font-size: 1.2em;
+    font-weight: 400;
+    transition: color 0.3s ease-in-out;
+}
+
+.navlinks .navlink:hover {
+    color: #21564b;
+}
+
+.navlinks .active {
+    color: #21564b;
+}
+
+.top {
+    background-color: #E0EBE8;
+}
+.crimson-pro{
+    font-family: "Crimson Pro", serif;
+    font-size: 6em;
+    font-weight: 700;
+    font-style: normal;
+  }
+footer{
+    background-color: #c5ded7;
+    padding: 3em 0;
+    display: block;
+}
+
+footer .footer-list {
+    /* overflow: hidden; */
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0
+}
+
+footer .footer-list li {
+    width: 50%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: block;
+    float: left
+}
+
+.footer-list a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #45b29a;
+    font-size: 1.5em
+}
+
+footer .footer-list a:hover {
+    color: #1a443b
+}
+footer p {
+    text-align: center;
+    color: #45b29a;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    padding: 2.5em 0 0
+}
+@media (min-width: 992px) {
+    footer .footer-list li {
+        width:33%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+@media (max-width:575px){
+    .navlinks{
+        padding-top: 20px;
+    }
+}
+.crimson-pro {
+    text-align: center;
+}
+img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
