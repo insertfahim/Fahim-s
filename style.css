@@ -39,16 +39,14 @@ footer{
 }
 
 footer .footer-list {
-    /* overflow: hidden; */
+    overflow: hidden;
     margin: 0 auto;
     max-width: 600px;
     padding: 0
 }
 
 footer .footer-list li {
-    width: 50%;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    width: 33%;
     display: block;
     float: left
 }
