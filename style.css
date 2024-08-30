@@ -1,104 +1,96 @@
 body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding: 0;
     margin: 0;
 }
 
-.navlinks{
+.navlinks {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
-    column-gap: 30px;
+    gap: 30px;
 }
-.navlinks .navlink {
+
+.navlink {
     color: #45b29a;
     font-size: 1.2em;
-    font-weight: 400;
     transition: color 0.3s ease-in-out;
 }
 
-.navlinks .navlink:hover {
-    color: #21564b;
-}
-
-.navlinks .active {
+.navlink:hover,
+.navlink.active {
     color: #21564b;
 }
 
 .top {
     background-color: #E0EBE8;
 }
-.crimson-pro-h1{
+
+.crimson-pro-h1,
+.crimson-pro-para {
     font-family: "Crimson Pro", serif;
+}
+
+.crimson-pro-h1 {
     font-size: 8vw;
     font-weight: 700;
-    font-style: normal;
-  }
-.crimson-pro-para{
-    font-family: "Crimson Pro", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 4vw;
 }
-footer{
+
+.crimson-pro-para {
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+footer {
     background-color: #c5ded7;
     padding: 3em 0;
-    display: block;
 }
 
-footer .footer-list {
-    overflow: hidden;
+.footer-list {
+    display: flex;
+    max-width: 50vw;
     margin: 0 auto;
-    max-width: 600px;
-    padding: 0
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
 }
 
-footer .footer-list li {
-    width: 33%;
-    display: block;
-    float: left
+.footer-list li {
+    flex: 1;
 }
 
 .footer-list a {
-    display: block;
-    text-align: center;
     text-decoration: none;
     color: #45b29a;
-    font-size: 1.2em
+    font-size: 1.2em;
 }
 
-footer .footer-list a:hover {
-    color: #1a443b
+.footer-list a:hover {
+    color: #1a443b;
 }
+
 footer p {
-    text-align: center;
     color: #45b29a;
     font-size: 1em;
-    font-weight: 400;
     margin: 0;
-    padding: 2.5em 0 0;
-    text-align: center;
-}
-@media (min-width: 992px) {
-    footer .footer-list li {
-        width:33%;
-        padding: 0;
-        margin: 0;
-    }
+    padding-top: 2.5em;
 }
 
-
-@media (max-width:575px){
-    .navlinks{
+@media (max-width: 575px) {
+    .navlinks {
         padding-top: 20px;
         justify-content: space-around;
-
     }
 }
-
 img {
     width: 100%;
     max-width: 150px;
     height: auto;
+    transition: transform 0.5s ease, top 0.5s ease; /* Added transition for transform and top properties */
+}
+
+/* Add hover effect to move the clouds slightly */
+.left-cloud:hover, .right-cloud:hover {
+    transform: translateY(-10px); /* Moves the cloud up slightly */
+    /* You can also adjust the 'top' property if needed */
 }
