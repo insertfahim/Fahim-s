@@ -94,3 +94,32 @@ img {
     transform: translateY(-10px); /* Moves the cloud up slightly */
     /* You can also adjust the 'top' property if needed */
 }
+
+.eb-garamond-intro {
+    font-family: "EB Garamond", serif;
+    /* font-optical-sizing: auto; */
+    font-size: 23px;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+::selection {
+    background: #D4E3DF;
+}
+
+
+/* -webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+--rem: 16;
+-webkit-font-smoothing: antialiased;
+font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #545454;
+box-sizing: border-box;
+height: 6px;
+width: 100%;
+background-image: url(/web/20180901170713im_/http://seanhalpin.io/assets/img/ui/line-bg@2x.png);
+background-size: auto 6px; */
+
+
